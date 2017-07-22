@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+     /*If you're having any weird margin or padding issues on your site, try adding margin: 0 auto; to the body of your page*/
+}
+
+#logo {
+  /*To slightly move the logo in my navbar to the right*/
+  padding-left: 1%;
+}
+
+
+/*To hide the buttons that display underneath my carousel or slider images, make the buttons the same color as your background. Add "!important" to tell your code to override any code that conflicts with this decision*/
+li.indicator-item {
+background-color: black !important;
+}
+
+/*filter on my sliding pictures*/
+#slider {
+  /*background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .6;*/
+  /*opacity: 0.9;*/
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  background-size: contain;
+}
+
+#slider img {
+position: 50% 50%;
+background-color: black;
+/*background-size: 100% auto;*/
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.photo {
+}
+.pageButton{
+  margin-left:0%;
+  font-size:60px;
+  background-color: transparent;
+  border: none;
+  color:white;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  margin-bottom: %;
+  position: absolute;
+  z-index: 100;
+  padding-top: 10%;
+  opacity: 1 !important;
+}
+.pageButton:hover{
+font-size:70px
+
+
+}
+.buttonSurround{
+/*text-align: center;
+*/
+
+}
+.nav-wrapper{
+}
+
+#Title{
+text-align: center;
+color:white;
+font-family: 'Amatic SC', cursive;
+font-weight: bold;
+}
+#playButton{
+  padding-left:48%;
+
+
+}
+#aboutButton{
+padding-left: 46%
+
+
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Choices Homepage</title>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Icons: Add this line of code for the icons that you find in materialize to work -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Stylesheets: All of your stylesheets are in this section  -->
+    <link rel="stylesheet" href="./homepage.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <!--marks the end of your stylesheets section-->
+
+  <!--Scripts: All of your jQuery is in this section -->
+    <!--This is the jQuery CDN. To find, Google "jQuery CDN and select the website entitle 'code.jquery' "  -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- The JavaScript that you need from materialize. Can be found on the "Get Started" page on materialize -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+   <!--The link to the file that you'll code your jQuery on. This is just like your "style.css" file but for jQuery-->
+    <script src="homepage.js"></script>
+  <!--marks the end of your JavaScript section-->
+
+</head>
+
+<body>
+<!--Code for a NavBar-->
+  <nav>
+    <div class="nav nav-wrapper blue">
+      <a href="#" class="brand-logo" id="Logo"><img src="http://i.imgur.com/wLs5wzD.png"height="64px" width= "64px"></a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="debrief.html">About</a></li>
+        <li><a href="StartCollege.html">Start</a></li>
+        <li><a href="charity.html">Donate</a></li>
+      </ul>
+<!--When your website is on a mobile device, the following lines of code compress your navbar in a clean way-->
+      <ul class="side-nav" id="mobile-demo">
+       <li class="active"><a href="">Home</a></li>
+       <li><a href="">Start</a></li>
+       <li><a href="">About</a></li>
+     </ul>
+    </div>
+  </nav>
+<h1 id = "Title">Choices</h1>
+<div class="row">
+  <div class="title">
+  </div>
+</div>
+
+<!--Automated carousel-->
+<div class="slider">
+  <div class= "buttonSurround">
+    <div id= "playButton">
+  <a href="StartCollege.html"><button class= "pageButton">Play</button></a>
+  </div>
+</div>
+    <ul class="slides">
+      <li>
+        <img src="http://www.supertouchart.com/wp-content/uploads/2016/01/sssdg-dsfgdf.jpeg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="http://apopka.uhcpqdoe6fq4wtztv.netdna-cdn.com/wp-content/uploads/2017/01/635922457698784914851322033_o-HOMELESS-BOY-facebook.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="http://www.hotelroomsearch.net/im/hotels/fr/factory-1.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="http://www.harfordcountymd.gov/ImageRepository/Document?documentID=5841"> <!-- random image -->
+        </div>
+      </li>
+    </ul>
+  </div>
+   <!-- marks the end of my Automated Carousel -->
+   <div class= "buttonSurround">
+     <div id="aboutButton">
+  <a href="debrief.html"><button class= "pageButton">About</button></a>
+   </div>
+ </div>
+   <!--Automated carousel-->
+   <div id="slider" class="slider">
+       <ul class="slides">
+         <li>
+           <img src="https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoAorw1jIMJ_dc547V?alt=media&token=be71c35b-bf4b-4a6d-b633-74cc576d3bd0"> <!-- random image -->
+         </li>
+         <li>
+           <img src= "https://steamuserimages-a.akamaihd.net/ugc/543022736890858021/04BE3D54CC9C1209F858E722E15F936BC313ADEE/">
+         </li>
+         <li>
+           <img src="https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoCK0ahjzPrjkCGxiX?alt=media&token=01ee2629-4ac1-48d3-9af8-f7a9c4dd30e2"> <!-- random image -->
+         </li>
+         <li>
+           <img src="https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoBl5epOjIm0wmqd5e?alt=media&token=a9efc5e0-ce64-4d82-abe6-66dd77ae3877"> <!-- random image -->
+         </li>
+         <li>
+           <img src="https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoC4snelg-mzSh1jr7?alt=media&token=18bb2dc0-dbe6-4b52-9eea-9d72ea54ff63"> <!-- random image -->
+           <!-- </div> -->
+         </li>
+       </ul>
+     </div>
+      <!-- marks the end of my Automated Carousel -->
+
+
+</body>
+
+
+</html>

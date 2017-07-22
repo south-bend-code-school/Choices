@@ -1,0 +1,135 @@
+<DOCTYPE html>
+  <html>
+
+<head>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <title>Choices Donation Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="./charity.css">
+<script src="main.js">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+<!-- scripts -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+  <nav>
+      <div class="nav nav-wrapper blue">
+        <a href="#" class="brand-logo"><img src="http://i.imgur.com/wLs5wzD.png" style="height: 64px; width: 64px;"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="debrief.html">About</a></li>
+          <li><a href="StartCollege.html">Start</a></li>
+          <li><a href="charity.html">Donate</a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+
+<div id="titletext">
+  <br>
+  <br>
+<h1 class="col s4" style="font-size: 80pt;">Homeless</h1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="page2">
+
+<h2 style="text-align: center; color: black; padding-top: 20px;">Choose Your Charity</h2>
+<br>
+<br>
+<br>
+
+<div class="next1">
+
+<a href="https://www.hopesb.org/">
+<p id="ministriestitle" class="belowtext">Hope Ministries</p>
+</a>
+
+<p style="color: black; font-size: 10pt; width: 400px; padding-bottom: 0px;">Hope Ministries' Vision: "The key to understanding Hope's vision is to understand our view of the root cause of chronic patterns of unhealthy choices. That cause is pain. Not physical pain, but rather the deep hurt, emptiness, regret and grief caused by traumatic experiences and environments of peoples' pasts. Almost every resident at Hope has deep, unhealed wounds in his or her heart. We find over and over again that the pain of these wounds is the root cause of addiction, anger, broken relationships, depression, and the vast majority of the bad choices that people make."</p>
+</div>
+<div class="next1">
+  <img id="firstimage" class="bottom-picture slideUp" style="border-top-right-radius: 5%; border-bottom-right-radius: 5%;" src="http://www.foodpantries.org/gallery/26416_hope_ministries_of_northern_kentucky_41042_ull.png">
+</div>
+<br>
+<div class="next2">
+
+<!-- DAYSPRING CENTER LINK AND IDENTIFICATION-->
+<a href="http://dayspringindy.org/">
+<p id="dayspringtitle" class="belowtext">Dayspring Center</p>
+</a>
+
+<p style="color: black; font-size: 10pt; width: 400px;">Dayspring Center's Vision: "Dayspring Center provides emergency shelter, clothing, and three nourishing meals a day for homeless families with children in central Indiana. Families turn to us as a last resort; some to escape domestic abuse, others have experienced financial collapse, medical problems, or other crises that caused them to lose their home.
+
+Dayspring effectively works to combat and prevent family homelessness by first meeting families' most immediate needs of food and shelter, then working with each family to address the issues that led them to their homelessness."</p>
+</div>
+<div class="next2">
+<img  id="secondpicture" style="border-top-right-radius: 5%; border-bottom-right-radius: 5%;" class="bottom-picture slideUp" src="http://www.homelessshelterdirectory.org/images/pics/14082_2.jpg">
+</div>
+<br>
+
+<div class="next3">
+
+<a href="http://www.ywcancin.org/site/c.6oJKL0PuF8JSG/b.8009909/k.764D/YWCA_Housing_Services.htm">
+<p id="YWCAtitle" class="belowtext">YWCA</p>
+</a>
+
+<p style="color: black; font-size: 10pt; width: 400px;">The YWCA's vision: "YWCA is on a mission to eliminate racism, empower women, stand up for social justice, help families, and strengthen communities."</p>
+</div>
+
+<div class="next3">
+<img id="thirdpicture" style="border-top-right-radius: 5%; border-bottom-right-radius: 5%;" class="bottom-picture slideUp" style="padding-top: 20px;" src="http://www.ywcaokc.org/atf/cf/%7B0A903550-C2B8-4D21-90A6-644858EE754D%7D/HOMEPAGEANIMATION.JPG">
+</div>
+</div>
+
+
+<script>
+  $('#firstimage').click(function() {
+    $(this).addClass("slideUp");
+  });
+</script>
+<script>
+  $(window).scroll(function() {
+    $('#firstimage').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
+</script>
+</body>
+
+
+</html>

@@ -1,0 +1,36 @@
+body{
+background-color: #d5d6d4;
+}
+
+/*.bio{
+  display: inline-block;
+}*/
+
+button{
+font-family: 'Amatic SC', cursive;
+font-size: 22px;
+font-weight: bold;
+border:none;
+background-color: #d5d6d4;
+color:white;
+}
+button:hover{
+  font-size: 25px;
+background-color: black;
+}
+
+h1{
+  font-size: 50px;
+}
+
+div{
+  font-size:30px;
+}
+
+.buttons{
+  float: right;
+}
+
+div{
+  font-weight: bold;
+}

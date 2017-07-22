@@ -1,0 +1,140 @@
+html{
+  background-image: url(./social-homeless.jpg);
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-repeat:no-repeat;
+  background-color: #d5d6d4;
+ overflow:auto;
+}
+#page2 {
+
+  width: 100000000px;
+  background-color: #FF7E2A;
+  color: black;
+}
+#page2:hover {
+
+
+}
+body {
+
+
+
+}
+
+#paragraph {
+  text-align: left;
+  width: 50%;
+
+}
+
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+
+}
+#topbar {
+text-align: right;
+}
+
+.topblock
+{
+  display: inline-block;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 25pt;
+}
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+#titletext {
+  font-size: 50pt;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#page1 {
+
+}
+
+p {
+  margin-left: 2%;
+  font-size: 50pt;
+  font-family: 'Amatic SC', cursive;
+}
+
+.aboutthing
+{
+  padding-left: 15px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  width: 25%;
+  border-radius: 20%;
+  border: 3px solid black;
+}
+.page2 {
+  background-image: url(http://wallup.net/wp-content/uploads/2016/05/25/112856-simple_background-white-texture-white_background-web_design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 40px 40px #000000, 0px -10px 100px #000000;
+}
+
+.belowtext {
+  color: black;
+  font-size: 30pt;
+}
+
+.next1 {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.bottom-picture {
+padding-left: 100px;
+}
+.next2 {
+  display: inline-block;
+  padding-left: 20px;
+}
+.next3 {
+  display: inline-block;
+  padding-left: 20px;
+}
+#ministriestitle {
+  transition: 1s;
+
+}
+#ministriestitle:hover {
+  color: grey;
+}
+#dayspringtitle {
+  transition: 1s;
+}
+#dayspringtitle:hover {
+  color:grey;
+}
+#YWCAtitle {
+  transition:1s;
+}
+#YWCAtitle:hover {
+  color:grey;
+}
+#firstimage {
+    width: 600px;
+  height: 400px;
+  padding-top: 80px;
+}
+#secondpicture {
+  box-shadow: 0px 0px 0px #000000;
+}
+#thirdpicture {
+  box-shadow: 0px 0px 0px #000000;
+}
